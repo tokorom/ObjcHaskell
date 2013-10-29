@@ -33,9 +33,13 @@ typedef higherOrderBlock (^curryingBlock)(id);
 #define mul [ObjcHaskell hsMul]
 #define div [ObjcHaskell hsDiv]
 #define cons [ObjcHaskell hsCons]
+#define lessThan [ObjcHaskell hsLessThan]
+#define greaterThan [ObjcHaskell hsGreaterThan]
 #define foldl [ObjcHaskell hsFoldl]
 #define foldr [ObjcHaskell hsFoldr]
 #define map [ObjcHaskell hsMap]
+#define filter [ObjcHaskell hsFilter]
+#define sum [ObjcHaskell hsSum]
 
 @interface ObjcHaskell : NSObject
 
@@ -47,8 +51,12 @@ typedef higherOrderBlock (^curryingBlock)(id);
 + (curryingBlock)hsMul;
 + (curryingBlock)hsDiv;
 + (curryingBlock)hsCons;
++ (curryingBlock)hsLessThan;
++ (curryingBlock)hsGreaterThan;
 + (curryingBlock)hsFoldl;
 + (curryingBlock)hsFoldr;
 + (curryingBlock)hsMap;
++ (curryingBlock)hsFilter;
++ (curryingBlock)hsSum;
 
 @end

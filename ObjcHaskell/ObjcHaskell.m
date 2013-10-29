@@ -16,6 +16,8 @@
         case '*': return mul;
         case '/': return div;
         case ':': return cons;
+        case '<': return lessThan;
+        case '>': return greaterThan;
         default: return [ObjcHaskell hsReturnNil];
     }
 }
@@ -70,6 +72,22 @@
     );
 }
 
++ (curryingBlock)hsLessThan
+{
+    CURRYING2(
+        x, y,
+        return @(NSOrderedAscending == [x compare:y]);
+    );
+}
+
++ (curryingBlock)hsGreaterThan
+{
+    CURRYING2(
+        x, y,
+        return @(NSOrderedDescending == [x compare:y]);
+    );
+}
+
 + (curryingBlock)hsFoldl
 {
     CURRYING3(
@@ -102,12 +120,35 @@
 {
     CURRYING2(
         unary, list,
+        curryingBlock fnc = unary;
         NSMutableArray* ret = [NSMutableArray array];
         for (id elem in list) {
-            curryingBlock fnc = unary;
             [ret addObject:(fnc (elem))];
         }
         return ret;
+    );
+}
+
++ (curryingBlock)hsFilter
+{
+    CURRYING2(
+        unary, list,
+        curryingBlock fnc = unary;
+        NSMutableArray* ret = [NSMutableArray array];
+        for (id elem in list) {
+            if ([(fnc (elem)) boolValue]) {
+                [ret addObject:elem];
+            }
+        }
+        return ret;
+    );
+}
+
+
++ (curryingBlock)hsSum
+{
+    return ((id)
+        foldr OP('+') (@0)
     );
 }
 

@@ -49,6 +49,34 @@
     XCTAssertEqualObjects(result, @0, @"result is invalid");
 }
 
+- (void)testLessThan
+{
+    id result;
+
+    result = OP('<') (@1) (@2);
+    XCTAssertEqualObjects(result, @YES, @"result is invalid");
+
+    result = OP('<') (@2) (@2);
+    XCTAssertEqualObjects(result, @NO, @"result is invalid");
+
+    result = OP('<') (@2) (@1);
+    XCTAssertEqualObjects(result, @NO, @"result is invalid");
+}
+
+- (void)testGreaterThan
+{
+    id result;
+
+    result = OP('>') (@1) (@2);
+    XCTAssertEqualObjects(result, @NO, @"result is invalid");
+
+    result = OP('>') (@2) (@2);
+    XCTAssertEqualObjects(result, @NO, @"result is invalid");
+
+    result = OP('>') (@2) (@1);
+    XCTAssertEqualObjects(result, @YES, @"result is invalid");
+}
+
 - (void)testCons
 {
     id result = cons (@1) (@[@2]);
@@ -100,8 +128,27 @@
 - (void)testMap
 {
     id result = map (OP('+') (@3)) (@[@1, @2, @3]); //< map (+3) [1, 2, 3]
-
     XCTAssertEqualObjects(result, (@[@4, @5, @6]), @"result is invalid");
+}
+
+- (void)testFilter
+{
+    id result = filter (OP('>') (@3)) (@[@1, @2, @3, @4]);
+    XCTAssertEqualObjects(result, (@[@1, @2]), @"result is invalid");
+}
+
+- (void)testSum
+{
+    id result = sum (@[@1, @2, @3]);
+    XCTAssertEqualObjects(result, @6, @"result is invalid");
+}
+
+- (void)testComposite
+{
+    id result;
+
+    result = sum (filter (OP('>') (@10)) (@[@8, @9, @10, @11]));
+    XCTAssertEqualObjects(result, @17, @"result is invalid");
 }
 
 @end
