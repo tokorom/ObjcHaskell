@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069C3BFB181EDEF30049ECAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3BFA181EDEF30049ECAA /* Foundation.framework */; };
+		069C3BFD181EDEF30049ECAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3BFC181EDEF30049ECAA /* CoreGraphics.framework */; };
+		069C3BFF181EDEF30049ECAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3BFE181EDEF30049ECAA /* UIKit.framework */; };
+		069C3C05181EDEF30049ECAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069C3C03181EDEF30049ECAA /* InfoPlist.strings */; };
+		069C3C07181EDEF30049ECAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C3C06181EDEF30049ECAA /* main.m */; };
+		069C3C0B181EDEF30049ECAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C3C0A181EDEF30049ECAA /* AppDelegate.m */; };
+		069C3C0D181EDEF30049ECAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069C3C0C181EDEF30049ECAA /* Images.xcassets */; };
+		069C3C14181EDEF30049ECAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3C13181EDEF30049ECAA /* XCTest.framework */; };
+		069C3C15181EDEF30049ECAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3BFA181EDEF30049ECAA /* Foundation.framework */; };
+		069C3C16181EDEF30049ECAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C3BFE181EDEF30049ECAA /* UIKit.framework */; };
+		069C3C1E181EDEF30049ECAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069C3C1C181EDEF30049ECAA /* InfoPlist.strings */; };
+		069C3C20181EDEF30049ECAA /* ObjcHaskellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C3C1F181EDEF30049ECAA /* ObjcHaskellTests.m */; };
+		069C3C2B181EE2180049ECAA /* ObjcHaskell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C3C2A181EE2180049ECAA /* ObjcHaskell.m */; };
+		069C3C2C181EE2180049ECAA /* ObjcHaskell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069C3C2A181EE2180049ECAA /* ObjcHaskell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069C3C17181EDEF30049ECAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 069C3BEF181EDEF30049ECAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069C3BF6181EDEF30049ECAA;
+			remoteInfo = ObjcHaskell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069C3BF7181EDEF30049ECAA /* ObjcHaskell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcHaskell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069C3BFA181EDEF30049ECAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		069C3BFC181EDEF30049ECAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		069C3BFE181EDEF30049ECAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		069C3C02181EDEF30049ECAA /* ObjcHaskell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjcHaskell-Info.plist"; sourceTree = "<group>"; };
+		069C3C04181EDEF30049ECAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		069C3C06181EDEF30049ECAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069C3C08181EDEF30049ECAA /* ObjcHaskell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjcHaskell-Prefix.pch"; sourceTree = "<group>"; };
+		069C3C09181EDEF30049ECAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		069C3C0A181EDEF30049ECAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		069C3C0C181EDEF30049ECAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		069C3C12181EDEF30049ECAA /* ObjcHaskellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcHaskellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069C3C13181EDEF30049ECAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		069C3C1B181EDEF30049ECAA /* ObjcHaskellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjcHaskellTests-Info.plist"; sourceTree = "<group>"; };
+		069C3C1D181EDEF30049ECAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		069C3C1F181EDEF30049ECAA /* ObjcHaskellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcHaskellTests.m; sourceTree = "<group>"; };
+		069C3C29181EE2180049ECAA /* ObjcHaskell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcHaskell.h; sourceTree = "<group>"; };
+		069C3C2A181EE2180049ECAA /* ObjcHaskell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcHaskell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069C3BF4181EDEF30049ECAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3BFD181EDEF30049ECAA /* CoreGraphics.framework in Frameworks */,
+				069C3BFF181EDEF30049ECAA /* UIKit.framework in Frameworks */,
+				069C3BFB181EDEF30049ECAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069C3C0F181EDEF30049ECAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3C14181EDEF30049ECAA /* XCTest.framework in Frameworks */,
+				069C3C16181EDEF30049ECAA /* UIKit.framework in Frameworks */,
+				069C3C15181EDEF30049ECAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069C3BEE181EDEF30049ECAA = {
+			isa = PBXGroup;
+			children = (
+				069C3C00181EDEF30049ECAA /* ObjcHaskell */,
+				069C3C19181EDEF30049ECAA /* ObjcHaskellTests */,
+				069C3BF9181EDEF30049ECAA /* Frameworks */,
+				069C3BF8181EDEF30049ECAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		069C3BF8181EDEF30049ECAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069C3BF7181EDEF30049ECAA /* ObjcHaskell.app */,
+				069C3C12181EDEF30049ECAA /* ObjcHaskellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069C3BF9181EDEF30049ECAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				069C3BFA181EDEF30049ECAA /* Foundation.framework */,
+				069C3BFC181EDEF30049ECAA /* CoreGraphics.framework */,
+				069C3BFE181EDEF30049ECAA /* UIKit.framework */,
+				069C3C13181EDEF30049ECAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		069C3C00181EDEF30049ECAA /* ObjcHaskell */ = {
+			isa = PBXGroup;
+			children = (
+				069C3C29181EE2180049ECAA /* ObjcHaskell.h */,
+				069C3C2A181EE2180049ECAA /* ObjcHaskell.m */,
+				069C3C09181EDEF30049ECAA /* AppDelegate.h */,
+				069C3C0A181EDEF30049ECAA /* AppDelegate.m */,
+				069C3C0C181EDEF30049ECAA /* Images.xcassets */,
+				069C3C01181EDEF30049ECAA /* Supporting Files */,
+			);
+			path = ObjcHaskell;
+			sourceTree = "<group>";
+		};
+		069C3C01181EDEF30049ECAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				069C3C02181EDEF30049ECAA /* ObjcHaskell-Info.plist */,
+				069C3C03181EDEF30049ECAA /* InfoPlist.strings */,
+				069C3C06181EDEF30049ECAA /* main.m */,
+				069C3C08181EDEF30049ECAA /* ObjcHaskell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		069C3C19181EDEF30049ECAA /* ObjcHaskellTests */ = {
+			isa = PBXGroup;
+			children = (
+				069C3C1F181EDEF30049ECAA /* ObjcHaskellTests.m */,
+				069C3C1A181EDEF30049ECAA /* Supporting Files */,
+			);
+			path = ObjcHaskellTests;
+			sourceTree = "<group>";
+		};
+		069C3C1A181EDEF30049ECAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				069C3C1B181EDEF30049ECAA /* ObjcHaskellTests-Info.plist */,
+				069C3C1C181EDEF30049ECAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069C3BF6181EDEF30049ECAA /* ObjcHaskell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069C3C23181EDEF30049ECAA /* Build configuration list for PBXNativeTarget "ObjcHaskell" */;
+			buildPhases = (
+				069C3BF3181EDEF30049ECAA /* Sources */,
+				069C3BF4181EDEF30049ECAA /* Frameworks */,
+				069C3BF5181EDEF30049ECAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcHaskell;
+			productName = ObjcHaskell;
+			productReference = 069C3BF7181EDEF30049ECAA /* ObjcHaskell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		069C3C11181EDEF30049ECAA /* ObjcHaskellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069C3C26181EDEF30049ECAA /* Build configuration list for PBXNativeTarget "ObjcHaskellTests" */;
+			buildPhases = (
+				069C3C0E181EDEF30049ECAA /* Sources */,
+				069C3C0F181EDEF30049ECAA /* Frameworks */,
+				069C3C10181EDEF30049ECAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				069C3C18181EDEF30049ECAA /* PBXTargetDependency */,
+			);
+			name = ObjcHaskellTests;
+			productName = ObjcHaskellTests;
+			productReference = 069C3C12181EDEF30049ECAA /* ObjcHaskellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069C3BEF181EDEF30049ECAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tokoro;
+				TargetAttributes = {
+					069C3C11181EDEF30049ECAA = {
+						TestTargetID = 069C3BF6181EDEF30049ECAA;
+					};
+				};
+			};
+			buildConfigurationList = 069C3BF2181EDEF30049ECAA /* Build configuration list for PBXProject "ObjcHaskell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 069C3BEE181EDEF30049ECAA;
+			productRefGroup = 069C3BF8181EDEF30049ECAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069C3BF6181EDEF30049ECAA /* ObjcHaskell */,
+				069C3C11181EDEF30049ECAA /* ObjcHaskellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069C3BF5181EDEF30049ECAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3C05181EDEF30049ECAA /* InfoPlist.strings in Resources */,
+				069C3C0D181EDEF30049ECAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069C3C10181EDEF30049ECAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3C1E181EDEF30049ECAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069C3BF3181EDEF30049ECAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3C0B181EDEF30049ECAA /* AppDelegate.m in Sources */,
+				069C3C2B181EE2180049ECAA /* ObjcHaskell.m in Sources */,
+				069C3C07181EDEF30049ECAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069C3C0E181EDEF30049ECAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C3C2C181EE2180049ECAA /* ObjcHaskell.m in Sources */,
+				069C3C20181EDEF30049ECAA /* ObjcHaskellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		069C3C18181EDEF30049ECAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 069C3BF6181EDEF30049ECAA /* ObjcHaskell */;
+			targetProxy = 069C3C17181EDEF30049ECAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		069C3C03181EDEF30049ECAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069C3C04181EDEF30049ECAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		069C3C1C181EDEF30049ECAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069C3C1D181EDEF30049ECAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		069C3C21181EDEF30049ECAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		069C3C22181EDEF30049ECAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		069C3C24181EDEF30049ECAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjcHaskell/ObjcHaskell-Prefix.pch";
+				INFOPLIST_FILE = "ObjcHaskell/ObjcHaskell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		069C3C25181EDEF30049ECAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjcHaskell/ObjcHaskell-Prefix.pch";
+				INFOPLIST_FILE = "ObjcHaskell/ObjcHaskell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		069C3C27181EDEF30049ECAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjcHaskell.app/ObjcHaskell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjcHaskell/ObjcHaskell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjcHaskellTests/ObjcHaskellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		069C3C28181EDEF30049ECAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjcHaskell.app/ObjcHaskell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjcHaskell/ObjcHaskell-Prefix.pch";
+				INFOPLIST_FILE = "ObjcHaskellTests/ObjcHaskellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069C3BF2181EDEF30049ECAA /* Build configuration list for PBXProject "ObjcHaskell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069C3C21181EDEF30049ECAA /* Debug */,
+				069C3C22181EDEF30049ECAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069C3C23181EDEF30049ECAA /* Build configuration list for PBXNativeTarget "ObjcHaskell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069C3C24181EDEF30049ECAA /* Debug */,
+				069C3C25181EDEF30049ECAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		069C3C26181EDEF30049ECAA /* Build configuration list for PBXNativeTarget "ObjcHaskellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069C3C27181EDEF30049ECAA /* Debug */,
+				069C3C28181EDEF30049ECAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069C3BEF181EDEF30049ECAA /* Project object */;
+}
